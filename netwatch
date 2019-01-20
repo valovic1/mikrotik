@@ -1,0 +1,1 @@
+[admin@MikroTik] system netwatch> add host=10.0.0.2 timeout=999ms interval=20s up-script=e-up down-script=e-down
