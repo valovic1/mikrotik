@@ -1,0 +1,2 @@
+/ip route print file="iproutes.txt"
+/tool e-mail send to="mimikro14@gmail.com" subject="$[/system identity get name] - $[/system clock get date] - route table" file="iproutes.txt" body="See attached file."
