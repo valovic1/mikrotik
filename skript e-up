@@ -1,1 +1,1 @@
-/tool e-mail send to=mimikro14@gmail.com subject="stav linky" body="linka hore"
+[admin@MikroTik] system script> add name=e-up source={/tool e-mail send toto=mimikro14@gmail.com subject="stav linky" body="linka hore"}
