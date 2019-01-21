@@ -15,3 +15,9 @@ následne je vo Winboxe treba nadstavit emailovu adresu pre zasielanie emailov <
 ## Konfigurácia skriptov
 skript na skopírovanie smerovacej tabulky a zaslanie na email
 ![skript na kopírovanie smerovacej tabulky](images/skripty.png)
+## Konfigurácia schedulera
+nadstavíme scheduler ktorý bude volať skript v pravidelných intervaloch <br>
+![nadstavenie schedulera](images/scheduler.png)
+scheduler sa dá prípadne nadstavit pomocou terminálu príkazom <br>
+/system scheduler <br>
+add on-event="iproute" start-time=00:00:00 interval=1h <br>
