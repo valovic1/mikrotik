@@ -26,5 +26,5 @@ nadstavíme netwatch ktorý bude kontrolovat stav linky a v prípade zmeny stavu
 ![nadstavenie netwatchu](images/netwatch.png) <br>
 netwatch sa dá prípadne nadstavit pomocou terminálu príkazom <br>
 system netwatch> add host=10.0.0.2 timeout=999ms interval=20s up-script=e-up down-script=e-down <br>
-skript ktorý netwatch zavolá <br>
+**skript ktorý netwatch zavolá** <br>
 system script> add name=e-down source={/tool e-mail send toto=mimikro14@gmail.com subject="stav linky" body="linka dolu"} <br>
