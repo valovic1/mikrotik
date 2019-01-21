@@ -1,3 +1,3 @@
-# mikrotik
-projekt z programovania
-# Heading level 1
+# MikroTik - monitoring RIP 
+monitorovanie siete RIP a zasielanie informácii na e-mail
+
