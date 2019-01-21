@@ -28,3 +28,7 @@ netwatch sa dá prípadne nadstavit pomocou terminálu príkazom <br>
 system netwatch> add host=10.0.0.2 timeout=999ms interval=20s up-script=e-up down-script=e-down <br>
 **skript ktorý netwatch zavolá** <br>
 system script> add name=e-down source={/tool e-mail send toto=mimikro14@gmail.com subject="stav linky" body="linka dolu"} <br>
+## Kontrola funkčnosti
+### emaily
+![email1](images/email1.png) <br>
+![email2](images/email2.png) <br>
