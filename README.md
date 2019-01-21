@@ -9,3 +9,9 @@ Takéto nadstavenie je vo Winboxe v záložke IP>addresses <br>
 Je treba spustiť dynamické smerovanie protokolom RIP <br>
 Takéto nadstavenie je vo Winboxe v záložke routing>RIP <br>
 ![nadstavenie RIP](images/nadstavenie_RIP.png)
+### nadstavenie e-mail
+následne je vo Winboxe treba nadstavit emailovu adresu pre zasielanie emailov <br>
+![nadstavenie email](images/nadstavenie_email.png)
+## Konfigurácia skriptov
+skript na skopírovanie smerovacej tabulky a zaslanie na email
+![skript na kopírovanie smerovacej tabulky](images/skripty.png)
